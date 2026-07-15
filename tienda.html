@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda | SALVA</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tienda.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <a href="index.html">SALVA</a>
+    </div>
+
+    <nav>
+
+        <a href="index.html">Inicio</a>
+        <a href="tienda.html" class="activo">Tienda</a>
+        <a href="contacto.html">Contacto</a>
+
+    </nav>
+
+    <div class="acciones">
+
+        <a href="login.html">Ingresar</a>
+        <a href="carrito.html">👜 <span id="contadorCarrito">0</span></a>
+
+    </div>
+
+</header>
+
+<section class="banner-tienda">
+
+    <h1>Colección 2026</h1>
+
+    <p>
+        Descubrí todas nuestras prendas exclusivas.
+    </p>
+
+</section>
+
+<section class="contenedor-tienda">
+
+    <aside class="filtros">
+
+        <h2>Filtros</h2>
+
+        <div>
+
+            <h3>Categorías</h3>
+
+            <label><input type="checkbox"> Blazers</label>
+            <label><input type="checkbox"> Vestidos</label>
+            <label><input type="checkbox"> Camisas</label>
+            <label><input type="checkbox"> Pantalones</label>
+            <label><input type="checkbox"> Sweaters</label>
+
+        </div>
+
+        <div>
+
+            <h3>Talles</h3>
+
+            <label><input type="checkbox"> XS</label>
+            <label><input type="checkbox"> S</label>
+            <label><input type="checkbox"> M</label>
+            <label><input type="checkbox"> L</label>
+            <label><input type="checkbox"> XL</label>
+
+        </div>
+
+        <div>
+
+            <h3>Precio</h3>
+
+            <input type="range" min="30000" max="250000">
+
+        </div>
+
+    </aside>
+
+    <section class="productos">
+
+        <div class="buscador">
+
+            <input
+                type="text"
+                id="busqueda"
+                placeholder="Buscar productos...">
+
+        </div>
+
+        <div id="contenedorProductos" class="grid-productos">
+
+            <!-- JavaScript -->
+
+        </div>
+
+    </section>
+
+</section>
+
+<footer>
+
+    <h2>SALVA</h2>
+
+    <p>Moda femenina premium.</p>
+
+    <p>© 2026 Todos los derechos reservados.</p>
+
+</footer>
+
+<script src="js/productos.js"></script>
+<script src="js/carrito.js"></script>
+<script src="js/buscador.js"></script>
+
+</body>
+
+</html>

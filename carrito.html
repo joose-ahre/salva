@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carrito | SALVA</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carrito.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <a href="index.html">SALVA</a>
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="tienda.html">Tienda</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="acciones">
+        <a href="login.html">Ingresar</a>
+        <a href="carrito.html" class="activo">👜</a>
+    </div>
+
+</header>
+
+<section class="banner">
+
+    <h1>Mi Carrito</h1>
+
+    <p>Revisá tus productos antes de finalizar la compra.</p>
+
+</section>
+
+<section class="contenedor-carrito">
+
+    <div class="productos-carrito">
+
+        <div class="item">
+
+            <img src="img/productos/producto1.jpg" alt="Blazer">
+
+            <div class="info">
+
+                <h2>Blazer Ivory</h2>
+
+                <p>Talle M</p>
+
+                <p>$129.900</p>
+
+            </div>
+
+            <div class="cantidad">
+
+                <button>-</button>
+
+                <input type="number" value="1">
+
+                <button>+</button>
+
+            </div>
+
+            <button class="eliminar">
+                Eliminar
+            </button>
+
+        </div>
+
+    </div>
+
+    <aside class="resumen">
+
+        <h2>Resumen</h2>
+
+        <div class="fila">
+            <span>Subtotal</span>
+            <strong>$129.900</strong>
+        </div>
+
+        <div class="fila">
+            <span>Envío</span>
+            <strong>Gratis</strong>
+        </div>
+
+        <div class="fila total">
+            <span>Total</span>
+            <strong>$129.900</strong>
+        </div>
+
+        <button class="btn-finalizar">
+            Finalizar Compra
+        </button>
+
+        <a href="tienda.html" class="seguir">
+            Seguir comprando
+        </a>
+
+    </aside>
+
+</section>
+
+<section class="beneficios">
+
+    <div class="beneficio">
+        <h3>🚚 Envíos</h3>
+        <p>Gratis en compras superiores a $120.000.</p>
+    </div>
+
+    <div class="beneficio">
+        <h3>💳 Pagos</h3>
+        <p>Hasta 6 cuotas sin interés.</p>
+    </div>
+
+    <div class="beneficio">
+        <h3>🔄 Cambios</h3>
+        <p>Hasta 30 días después de la compra.</p>
+    </div>
+
+</section>
+
+<footer>
+
+    <h2>SALVA</h2>
+
+    <p>Moda femenina premium.</p>
+
+    <p>© 2026 SALVA. Todos los derechos reservados.</p>
+
+</footer>
+
+<script src="js/carrito.js"></script>
+
+</body>
+
+</html>

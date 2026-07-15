@@ -1,0 +1,314 @@
+/* =========================
+        RESPONSIVE SALVA
+   ========================= */
+
+
+/* TABLETS */
+
+@media(max-width:1100px){
+
+
+header {
+
+    padding:0 5%;
+
+}
+
+
+.logo a {
+
+    font-size:35px;
+
+}
+
+
+nav {
+
+    gap:25px;
+
+}
+
+
+.hero-texto h1 {
+
+    font-size:80px;
+
+}
+
+
+.grid-categorias {
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+.productos {
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+.categorias h2,
+.destacados h2 {
+
+    font-size:45px;
+
+}
+
+
+}
+
+
+
+/* CELULARES */
+
+@media(max-width:768px){
+
+
+
+header {
+
+    height:auto;
+
+    padding:20px;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    position:relative;
+
+}
+
+
+
+.logo a {
+
+    font-size:32px;
+
+    letter-spacing:8px;
+
+}
+
+
+nav {
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+
+.acciones {
+
+    justify-content:center;
+
+}
+
+
+
+/* HERO */
+
+
+.hero {
+
+    height:90vh;
+
+}
+
+
+.hero-texto {
+
+    padding:20px;
+
+}
+
+
+.hero-texto h1 {
+
+    font-size:55px;
+
+}
+
+
+.hero-texto span {
+
+    font-size:15px;
+
+}
+
+
+
+.btn {
+
+    padding:15px 30px;
+
+}
+
+
+
+/* CATEGORIAS */
+
+
+.categorias {
+
+    padding:70px 5%;
+
+}
+
+
+.grid-categorias {
+
+    grid-template-columns:1fr;
+
+}
+
+
+.categoria img {
+
+    height:400px;
+
+}
+
+
+
+/* PRODUCTOS */
+
+
+.destacados {
+
+    padding:70px 5%;
+
+}
+
+
+.productos {
+
+    grid-template-columns:1fr;
+
+}
+
+
+.producto img {
+
+    height:450px;
+
+}
+
+
+
+/* NOSOTROS */
+
+
+.nosotros {
+
+    padding:70px 8%;
+
+}
+
+
+.nosotros h2 {
+
+    font-size:45px;
+
+}
+
+
+/* NEWSLETTER */
+
+
+.newsletter {
+
+    padding:70px 5%;
+
+}
+
+
+.newsletter h2 {
+
+    font-size:45px;
+
+}
+
+
+.newsletter input {
+
+    width:100%;
+
+    margin-bottom:15px;
+
+}
+
+
+.newsletter button {
+
+    width:100%;
+
+}
+
+
+
+/* FOOTER */
+
+
+footer {
+
+    padding:50px 20px;
+
+}
+
+
+footer h2 {
+
+    font-size:40px;
+
+}
+
+
+
+
+}
+
+
+
+/* CELULARES PEQUEÑOS */
+
+@media(max-width:420px){
+
+
+.hero-texto h1 {
+
+    font-size:45px;
+
+}
+
+
+.banner-tienda h1,
+.banner h1 {
+
+    font-size:45px;
+
+}
+
+
+.informacion h1 {
+
+    font-size:42px;
+
+}
+
+
+.login-box {
+
+    padding:30px 20px;
+
+}
+
+
+
+}
